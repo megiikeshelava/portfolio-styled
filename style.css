@@ -1,0 +1,146 @@
+h1 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: rgb(141, 30, 120);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;            
+  align-items: center;       
+  gap: 40px;                 
+  margin-top: 20px;         
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myphoto {
+  width:400px;     
+  height: auto;    
+  border-radius: 50%; 
+  object-fit: cover;
+}
+.edu-photo {
+  width: 500px;    
+  height: auto;    
+  border-radius:10%; 
+  object-fit: cover;
+}
+
+.experience-photo {
+  width: 400px;    
+  height: auto;    
+  border-radius: 20%; 
+  object-fit: cover;
+}
+
+.skills-photo {
+  width: 400px;    
+  height: auto;    
+  border-radius: 20%; 
+  object-fit: cover;
+}
+.projects-photo {
+  width: 400px;    
+  height: auto;    
+  border-radius: 20px 0px 20px 0px;
+  object-fit: cover;
+}
+
+.goals-photo {
+  width: 400px;    
+  height: auto;    
+  border-radius: 20px 0px 20px 0px;
+  object-fit: cover;
+}
+
+.contact-photo {
+  width: 200px;    
+  height: auto;    
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.interests-gallery-img {
+  display: inline-block;
+  width: 250px;        
+  height: 200px;       
+  object-fit: cover;  
+}
+
+.interests-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+#exception {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+p.footerp {
+  font-size: 14px;
+  color: black;
+}
+
+p {
+  font-style: italic;
+  color:blueviolet
+}
+
+#port-photo {
+  display: block;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  margin-left: auto;   
+  margin-right: 30px;
+}
+#movie-photo {
+  display: block;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+h2 {
+  color: rgb(37, 1, 30);
+  text-align: center;
+}
+
+main li {
+  color: rgb(128, 7, 103);
+  text-align: center;
+  list-style: none;
+}
+
+#about-me h2 {
+  color: rgb(37, 1, 30);
+  text-align: center;
+  margin-top: -50px;
+}
